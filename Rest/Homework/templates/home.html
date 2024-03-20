@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        .form-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: fit-content;
+            float: left;
+        }
+        .second-form-container {
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="myApp/results/player/" method="post">
+            <h3>Input club name:</h3>
+            <input type="text" name="club_name" placeholder="Name">
+            <h3>Input year:</h3>
+            <input type="text" name="year" placeholder="Year">
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+    <div class="form-container second-form-container">
+        <form action="myApp/results/money/" method="post">
+            <h3>Input how much money you want:</h3>
+            <input type="text" name="money" placeholder="Money">
+            <br>
+            <h3>Choose date from:</h3>
+            <input type="date" name="date_from" id="date_from" min="2002-01-02">
+            <h3>Choose date to:</h3>
+            <input type="date" name="date_to" id="date_to" min="2002-01-02" onchange="checkDate()">
+            <h3>Select currency:</h3>
+            <select id="select" name="currency">
+                <option value="USD">USD</option>
+                <option value="GBP">GBP</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script>
+        function checkDate() {
+            var date_from = document.getElementById("date_from").value;
+            var date_to = document.getElementById("date_to").value;
+
+            if (date_to < date_from) {
+                alert("Wrong date");
+                document.getElementById("date_to").value = date_from;
+            }
+        }
+    </script>
+    <script>
+        window.onload = function() {
+            var form = document.getElementById("myForm");
+            form.onsubmit = function(event) {
+                event.preventDefault(); // Zapobiega domyślnemu wysłaniu formularza
+
+                var clubName = form.elements["club_name"].value;
+                var year = form.elements["year"].value;
+                var actionUrl = "/example/api_key/myApp/results/player/" + clubName + "/" + year;
+
+                // Ustawienie atrybutu action formularza
+                form.action = actionUrl;
+
+                // Ręczne wysłanie formularza
+                form.submit();
+            };
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+{
+	"info": {
+		"_postman_id": "1fbc2477-0038-44ed-acce-10dfb783f8be",
+		"name": "my_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33668150"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8002/myApp/results/player",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"pm.test(\"Date of Birth is in a valid date format\", function () {",
+							"    const responseData = pm.response.text();",
+							"",
+							"    pm.expect(responseData).to.include(\"Date of Birth: \");",
+							"",
+							"    const dateOfBirth = responseData.match(/Date of Birth: (.*?)<\\/p>/)[1];",
+							"    pm.expect(Date.parse(dateOfBirth)).to.not.be.NaN;",
+							"});",
+							"",
+							"pm.test(\"Value is in a valid currency format\", function () {",
+							"    const responseData = pm.response.text();",
+							"    ",
+							"    pm.expect(responseData).to.include(\"Value: 644596793.91 PLN\");",
+							"});",
+							"",
+							"pm.test(\"Response has the required Content-Type header\", function () {",
+							"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/html\");",
+							"});",
+							"",
+							"pm.test(\"Player's age is a non-negative integer\", function () {",
+							"    const responseData = pm.response.text();",
+							"    ",
+							"    pm.expect(responseData).to.include(\"Age: 22\").and.to.match(/Age: (\\d+)/);",
+							"});",
+							"",
+							"pm.test(\"Nationality is a valid country name\", function () {",
+							"    const responseData = pm.response.text();",
+							"    ",
+							"    pm.expect(responseData).to.include(\"Nationality: Brazil\");",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "club_name",
+							"value": "Real Madryt",
+							"type": "text"
+						},
+						{
+							"key": "year",
+							"value": "2022",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8002/myApp/results/player",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						"myApp",
+						"results",
+						"player"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8002/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test(\"Response status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Content type is text/html\", function () {\r",
+							"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/html\");\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8002/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "://localhost:8002/myApp/results/money",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Response schema includes required properties\", function () {\r",
+							"    const responseData = pm.response.text();\r",
+							"\r",
+							"    pm.expect(responseData).to.include('Currency');\r",
+							"    pm.expect(responseData).to.include('Starting date');\r",
+							"    pm.expect(responseData).to.include('Ending date');\r",
+							"    pm.expect(responseData).to.include('Money');\r",
+							"    pm.expect(responseData).to.include('Global minimal value');\r",
+							"    pm.expect(responseData).to.include('Global maximal value');\r",
+							"    pm.expect(responseData).to.include('Global mean');\r",
+							"    pm.expect(responseData).to.include('NBP mean');\r",
+							"    pm.expect(responseData).to.include('Frankfurter mean');\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Verify that the response content type is 'text/html'\", function () {\r",
+							"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/html\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Check another currency link is present\", function () {\r",
+							"    const responseData = pm.response.text();\r",
+							"\r",
+							"    pm.expect(responseData).to.include('Check another currency');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verify that the response content type is 'text/html'\", function () {\r",
+							"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/html\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Presence of 'Currency' in the response body\", function () {\r",
+							"    const responseData = pm.response.text();\r",
+							"\r",
+							"    pm.expect(responseData).to.include(\"Currency\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Presence of Starting date in the response body\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Starting date\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Ending date exists in the response body\", function () {\r",
+							"    const responseData = pm.response.text();\r",
+							"\r",
+							"    pm.expect(responseData).to.include(\"Ending date\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Presence of 'Money' in the response body\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Money\");\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "money",
+							"value": "2022",
+							"type": "text"
+						},
+						{
+							"key": "currency",
+							"value": "EUR",
+							"type": "text"
+						},
+						{
+							"key": "date_from",
+							"value": "2020-01-05",
+							"type": "text"
+						},
+						{
+							"key": "date_to",
+							"value": "2024-01-02",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8002/myApp/results/money",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						"myApp",
+						"results",
+						"money"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
