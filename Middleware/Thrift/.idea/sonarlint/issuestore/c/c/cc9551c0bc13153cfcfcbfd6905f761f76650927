@@ -1,0 +1,38 @@
+
+{
+java:S2293n"YReplace the type specification in this constructor call with the diamond operator ("<>").(­³Ãúûÿÿÿÿ8ÅöËèî1
+v
+java:S2293s"YReplace the type specification in this constructor call with the diamond operator ("<>").(ë½»8ÆöËèî1
+b
+java:S1192U"LDefine a constant instead of duplicating this literal ") returned " 6 times.(®¾»ô
+P
+java:S1141G"5Extract this nested try block into a separate method.(ç£êúÿÿÿÿ
+c
+java:S2259b"FA "NullPointerException" could be thrown; "synCalc2" is nullable here.(ë™Á8 ˜‹éî1
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÛÛ¯ø
+@	java:S106'"+Replace this use of System.out by a logger.(Àƒº
+]	java:S125-"<This block of commented-out lines of code should be removed.(‘«Ñùÿÿÿÿ8õº‹éî1
+V	java:S1259"<This block of commented-out lines of code should be removed.(ÕêºÚşÿÿÿÿ
+E	java:S106I"+Replace this use of System.out by a logger.(­ÏÄ·øÿÿÿÿ
+@	java:S106J"+Replace this use of System.out by a logger.(ÚÂâ
+@	java:S106U"+Replace this use of System.out by a logger.(®¾»ô
+@	java:S106\"+Replace this use of System.out by a logger.(®¾»ô
+@	java:S106c"+Replace this use of System.out by a logger.(®¾»ô
+@	java:S106j"+Replace this use of System.out by a logger.(®¾»ô
+E	java:S106o"+Replace this use of System.out by a logger.(Š™ıÿÿÿÿ
+@	java:S106t"+Replace this use of System.out by a logger.(àË¦İ
+@	java:S106{"+Replace this use of System.out by a logger.(®¾»ô
+A	java:S106‚"+Replace this use of System.out by a logger.(®¾»ô
+A	java:S106Š"+Replace this use of System.out by a logger.(åÓ¡ñ
+F	java:S106"+Replace this use of System.err by a logger.(°£Ö‹üÿÿÿÿ
+H	java:S106¡"+Replace this use of System.out by a logger.(¹Â‰8¸úËèî1
+M	java:S106§"+Replace this use of System.out by a logger.(ã°ïñøÿÿÿÿ8Ğèî1
+l
+java:S1128"JRemove this unused import 'sr.rpc.thrift.Calculator.AsyncClient.add_call'.(ÉŸ½•ùÿÿÿÿ8¼˜‹éî1
+e
+java:S1128"HRemove this unused import 'org.apache.thrift.protocol.TCompactProtocol'.(•åŸ†8Š»‹éî1
+b
+java:S1128"ERemove this unused import 'org.apache.thrift.protocol.TJSONProtocol'.(Áãğ€8¼˜‹éî1
+ä
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 110 to 64, Complexity from 15 to 14, Nesting Level from 4 to 2, Number of Variables from 32 to 6.(ÛÛ¯ø8Ğèî1
