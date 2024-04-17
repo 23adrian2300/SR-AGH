@@ -1,0 +1,8 @@
+
+k	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÄÔ¾úÿÿÿÿ
+f	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãê€‹
+e
+java:S1104/"OMake msg a static final constant or non-public and provide accessors if needed.(ÝÑºŒ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æåÑ©úÿÿÿÿ
+2
+java:S1165/"Make this "msg" field final.(ÝÑºŒ

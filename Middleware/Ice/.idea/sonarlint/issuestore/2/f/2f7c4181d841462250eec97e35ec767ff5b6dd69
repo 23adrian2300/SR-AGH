@@ -1,0 +1,21 @@
+
+m	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¹ñµ8˜‡çî1
+r	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ«ƒ¼úÿÿÿÿ8™‡çî1
+m	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¹ñµ8™‡çî1
+r	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ«ƒ¼úÿÿÿÿ8™‡çî1
+m	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“–â×8™‡çî1
+r	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ûö±ıÿÿÿÿ8™‡çî1
+n	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óá‚’8™‡çî1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æåÑ©úÿÿÿÿ
+O
+java:S2386"2Move "_iceIds" to a class and lower its visibility(ÂåĞ¶8µ‡çî1
+U
+java:S2386"2Move "_iceOps" to a class and lower its visibility(ÜÎ×’ùÿÿÿÿ8µ‡çî1
+o	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¨‹„ùÿÿÿÿ8È‡çî1
+j	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™™Ë¬8×‡çî1
+j	java:S100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûŸÜæ8ç‡çî1
+j	java:S100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Ä¨ƒ8é‡çî1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¶ÛÆ8ë‡çî1
+h
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÜÎ×’ùÿÿÿÿ8î‡çî1
+>	java:S131¦""Add a default case to this switch.(¸ÒûV8÷‡çî1

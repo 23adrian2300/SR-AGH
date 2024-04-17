@@ -1,0 +1,25 @@
+
+‹
+java:S1192$"iDefine a constant instead of duplicating this literal "There are some properties in the context" 3 times.(óÇĞñùÿÿÿÿ8Ÿªçî1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô‰ôõûÿÿÿÿ8ù¿í1
+m	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œóêÒ8ù¿í1
+m	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÜˆ¯8¡ªçî1
+\
+java:S2184'"@Cast one of the operands of this addition operation to a "long".(ÓˆŒR8•ù¿í1
+e
+java:S2184:"CCast one of the operands of this subtraction operation to a "long".(è¤³´ûÿÿÿÿ8•ù¿í1
+]	java:S125
+"<This block of commented-out lines of code should be removed.(åº×ûÿÿÿÿ8ÉäÃí1
+G	java:S106"+Replace this use of System.out by a logger.( áôÍ8µù¿í1
+`
+java:S1155#">Use isEmpty() to check whether the collection is empty or not.(à©Óøùÿÿÿÿ8µù¿í1
+L	java:S106$"+Replace this use of System.out by a logger.(óÇĞñùÿÿÿÿ8µù¿í1
+L	java:S106,"+Replace this use of System.out by a logger.(Ğ´Ûïÿÿÿÿÿ8µù¿í1
+`
+java:S11556">Use isEmpty() to check whether the collection is empty or not.(à©Óøùÿÿÿÿ8µù¿í1
+L	java:S1067"+Replace this use of System.out by a logger.(óÇĞñùÿÿÿÿ8µù¿í1
+G	java:S106?"+Replace this use of System.out by a logger.(¯Ç€ã8µù¿í1
+G	java:S106K"+Replace this use of System.out by a logger.(»¸˜È8»ªçî1
+`
+java:S1155M">Use isEmpty() to check whether the collection is empty or not.(à©Óøùÿÿÿÿ8¼ªçî1
+L	java:S106N"+Replace this use of System.out by a logger.(óÇĞñùÿÿÿÿ8¼ªçî1
