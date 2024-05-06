@@ -1,0 +1,40 @@
+
+o
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(§Í±ä
+m
+java:S1104"RMake number a static final constant or non-public and provide accessors if needed.(ŞÄù×ùÿÿÿÿ
+f
+java:S1104"PMake type a static final constant or non-public and provide accessors if needed.(ÁŒö”
+t
+java:S1104"RMake baboon a static final constant or non-public and provide accessors if needed.(ÜÇÆÄúÿÿÿÿ8±­Ï¯ï1
+c
+java:S1104%"MMake a a static final constant or non-public and provide accessors if needed.(‚ÈÂÉ
+h
+java:S1104&"MMake b a static final constant or non-public and provide accessors if needed.(êòÍŒúÿÿÿÿ
+f
+java:S1104("PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾
+i
+java:S1104)"NMake id a static final constant or non-public and provide accessors if needed.(ÍéÌ‘øÿÿÿÿ
+l
+java:S1104*"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëıÿÿÿÿ
+h
+java:S1104+"RMake phones a static final constant or non-public and provide accessors if needed.(È¬¢
+k
+java:S2095S"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(•òşÍ8î­Ï¯ï1
+m
+java:S2095T"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ºıõ8î­Ï¯ï1
+2
+java:S1116
+"Remove this empty statement.(­Ûç‡
+E
+java:S1948"#Make "baboon" private or transient.(ÜÇÆÄúÿÿÿÿ8ø­Ï¯ï1
+9
+java:S1948+"#Make "phones" private or transient.(È¬¢
+W
+java:S1854@":Remove this useless assignment to local variable "baboon".(÷•ó8›ŞÍ¯ï1
+H
+java:S1481@"+Remove this unused "baboon" local variable.(÷•ó8¥ŞÍ¯ï1
+@	java:S106F"+Replace this use of System.out by a logger.(ô˜éá
+?	java:S106O"+Replace this use of System.out by a logger.(Ã–Ìe
+?	java:S106Y"+Replace this use of System.out by a logger.(¤é¤&
+G	java:S106]"+Replace this use of System.out by a logger.(ıìç8Äúç®ï1

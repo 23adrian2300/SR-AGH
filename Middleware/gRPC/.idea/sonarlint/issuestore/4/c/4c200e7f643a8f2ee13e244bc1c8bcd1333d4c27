@@ -1,0 +1,21 @@
+
+g	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+u
+java:S1488è"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+k	java:S116-"QRename this field "count_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Òİıÿÿÿÿ
+m	java:S1168"YRename this field "processorTime_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•·Z
+y
+java:S4144ì"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 456.(•›µ|
+V
+java:S1126z"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252ç"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116ı"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+g	java:S116ÿ"QRename this field "count_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÇ¡‡
+t	java:S116Ÿ"YRename this field "processorTime_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ÈÏìüÿÿÿÿ
+h
+java:S3252…"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+]
+java:S6201º"FReplace this instanceof check and cast with 'instanceof Report report'(ô–…ê
+W	java:S125ô"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125õ"<This block of commented-out lines of code should be removed.(¯Ë¶‡

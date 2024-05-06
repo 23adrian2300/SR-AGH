@@ -1,0 +1,21 @@
+
+g	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+u
+java:S1488ç"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+e	java:S116-"PRename this field "arg1_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÛ÷
+e	java:S1168"PRename this field "arg2_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò»á“
+z
+java:S4144ë"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 455.(²ø”ù
+V
+java:S1126z"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252æ"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116ü"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+f	java:S116ş"PRename this field "arg1_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®îİÁ
+f	java:S116"PRename this field "arg2_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òâÛ
+h
+java:S3252„"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+€
+java:S6201¹"dReplace this instanceof check and cast with 'instanceof ArithmeticOpArguments arithmeticoparguments'(ÏÂ¶Öøÿÿÿÿ
+W	java:S125ó"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125ô"<This block of commented-out lines of code should be removed.(¯Ë¶‡

@@ -1,0 +1,15 @@
+
+t
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı”–ó˝ˇˇˇˇ
+V
+java:S2184"@Cast one of the operands of this addition operation to a "long".(ÜÚ™∂
+E	java:S106"+Replace this use of System.out by a logger.(Ú∞ÚÓ˘ˇˇˇˇ
+@	java:S106"+Replace this use of System.out by a logger.(çö´ï
+t
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ÜÚ™∂
+>	java:S108")Either remove or fill this block of code.(ÜÚ™∂
+c	java:S119*"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ÕÒ•ú¯ˇˇˇˇ
+E	java:S1061"+Replace this use of System.out by a logger.(Œ‘⁄›˛ˇˇˇˇ
+@	java:S1068"+Replace this use of System.out by a logger.(ãÍ¢ò
+@	java:S106>"+Replace this use of System.out by a logger.(åÛÑü
+@	java:S106E"+Replace this use of System.out by a logger.(ú”ÓΩ

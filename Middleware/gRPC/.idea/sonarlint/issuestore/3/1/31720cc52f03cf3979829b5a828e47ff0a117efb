@@ -1,0 +1,27 @@
+
+g	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+u
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+I
+java:S1199„"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+g	java:S116/"RRename this field "optype_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ©Íå
+d	java:S116B"PRename this field "args_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÜ^
+z
+java:S4144ø"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 596.(á„Ë§
+<
+java:S1948B"'Make "args_" transient or serializable.(ÙÜ^
+Y
+java:S1155p">Use isEmpty() to check whether the collection is empty or not.(ğ›ë•üÿÿÿÿ
+W
+java:S1126¡"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116º"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+h	java:S116¼"RRename this field "optype_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ©Íå
+f	java:S116ñ"PRename this field "args_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜĞñÉ
+h
+java:S3252­"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+‰
+java:S6201ã"rReplace this instanceof check and cast with 'instanceof ComplexArithmeticOpArguments complexarithmeticoparguments'(Œöó«
+W	java:S125±"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125²"<This block of commented-out lines of code should be removed.(¯Ë¶‡
