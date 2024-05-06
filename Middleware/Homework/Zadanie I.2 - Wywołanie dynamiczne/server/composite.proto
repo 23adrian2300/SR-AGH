@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "gen";
+option java_outer_classname = "CompositeProto";
+
+package calculator;
+
+message CompositeInput
+{
+  int64 max = 1;
+}
+
+message CompositeStreamResult
+{
+  int64 value = 1;
+}
+
+message CompositeResult
+{
+  repeated int64 composites = 1;
+}
+
+service CompositeService {
+  rpc GenerateCompositeNumbers(CompositeInput) returns (stream CompositeStreamResult) {}
+  rpc GetCompositeNumbersList(CompositeInput) returns (CompositeResult) {}
+}

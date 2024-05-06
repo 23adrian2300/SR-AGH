@@ -1,0 +1,25 @@
+
+n	java:S117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€8ÂÜ¼Óó1
+|
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~8ÄÜ¼Óó1
+P
+java:S1199‚"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÈÜ¼Óó1
+z	java:S116-"YRename this field "operationtype_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Í…‘ıÿÿÿÿ8åÜ¼Óó1
+v	java:S116@"URename this field "arguments_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Éâøÿÿÿÿ8æÜ¼Óó1
+z
+java:S4144¢"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 638.(ô³‰™
+N
+java:S1948@",Make "arguments_" transient or serializable.(‹Éâøÿÿÿÿ8Œø«Ôó1
+[
+java:S1155n">Use isEmpty() to check whether the collection is empty or not.(Ğñ´Ó8öÜ¼Óó1
+^
+java:S1126Ÿ"AReplace this if-then-else statement by a single return statement.(ûÿ½%8üÜ¼Óó1
+r	java:S116Ø"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä8‹İ¼Óó1
+{	java:S116Ú"YRename this field "operationtype_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Í…‘ıÿÿÿÿ8‹İ¼Óó1
+w	java:S116"URename this field "arguments_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ëÄÚøÿÿÿÿ8‹İ¼Óó1
+v
+java:S2975à"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ8”İ¼Óó1
+
+java:S6201"rReplace this instanceof check and cast with 'instanceof ArithmeticOperationArguments arithmeticoperationarguments'(À••8™İ¼Óó1
+^	java:S125Ï"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ8 İ¼Óó1
+Y	java:S125Ğ"<This block of commented-out lines of code should be removed.(¯Ë¶‡8 İ¼Óó1

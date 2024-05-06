@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "gen";
+option java_outer_classname = "CalculatorProto";
+
+package calculator;
+
+message ArithmeticOperationArguments {
+  OperationType operationtype = 1;
+  repeated double arguments = 2;
+}
+
+message ArithmeticOperationResult {
+  double result = 1;
+}
+
+enum OperationType {
+  ADD = 0;
+  MIN = 1;
+  MAX = 2;
+  AVG = 3;
+}
+
+
+message CompositeTesterArguments {
+  int64 number = 1;
+}
+
+message CompositeTesterResult {
+  string isComposite = 1;
+}
+
+service Calculator {
+  rpc Operation (ArithmeticOperationArguments) returns (ArithmeticOperationResult) {}
+  rpc CompositeTester (CompositeTesterArguments) returns (CompositeTesterResult) {}
+}
+

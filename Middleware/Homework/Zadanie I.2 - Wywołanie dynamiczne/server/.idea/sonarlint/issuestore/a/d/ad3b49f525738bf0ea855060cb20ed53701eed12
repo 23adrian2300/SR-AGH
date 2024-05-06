@@ -1,0 +1,23 @@
+
+n	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€8Ò•¬Çô1
+|
+java:S1488Ğ"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~8Ô•¬Çô1
+s	java:S116+"WRename this field "isComposite_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶êƒ®8œ–¬Çô1
+z
+java:S4144Ô"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 432.(»““
+I
+java:S1125C"'Remove the unnecessary boolean literal.(Àíöñüÿÿÿÿ8«–¬Çô1
+I
+java:S1125O"'Remove the unnecessary boolean literal.(Àíöñüÿÿÿÿ8­–¬Çô1
+]
+java:S1126d"AReplace this if-then-else statement by a single return statement.(ûÿ½%8¯–¬Çô1
+r	java:S116ù"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä8¾–¬Çô1
+t	java:S116û"WRename this field "isComposite_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¹æ¾8¾–¬Çô1
+v
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ8Ç–¬Çô1
+‡
+java:S6201¾"dReplace this instanceof check and cast with 'instanceof CompositeTesterResult compositetesterresult'(ğ‰ÍŒúÿÿÿÿ8Ì–¬Çô1
+E
+java:S1125È"'Remove the unnecessary boolean literal.(ÿ’¨Ø8Î–¬Çô1
+^	java:S125ğ"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ8Ø–¬Çô1
+Y	java:S125ñ"<This block of commented-out lines of code should be removed.(¯Ë¶‡8Ø–¬Çô1

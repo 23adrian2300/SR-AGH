@@ -1,0 +1,19 @@
+
+g	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+u
+java:S1488Ó"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+i	java:S116-"ORename this field "res_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Àœ›øÿÿÿÿ
+
+java:S4144«"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 391.(ˆòùÌÿÿÿÿÿ
+V
+java:S1126g"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252Ò"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈý¾
+k	java:S116Ü"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+d	java:S116Þ"ORename this field "res_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¡ÃV
+h
+java:S3252ð"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈý¾
+ˆ
+java:S6201¡"lReplace this instanceof check and cast with 'instanceof ArithmeticOperationResult arithmeticoperationresult'(êýžªøÿÿÿÿ
+W	java:S125Ó"<This block of commented-out lines of code should be removed.(“Ž“ùûÿÿÿÿ
+R	java:S125Ô"<This block of commented-out lines of code should be removed.(¯Ë¶‡
