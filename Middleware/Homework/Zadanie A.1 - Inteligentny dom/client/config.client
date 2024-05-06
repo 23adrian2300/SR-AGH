@@ -1,0 +1,7 @@
+LivingRoomLamp.Proxy=lamp/livingRoomLamp:tcp -h 127.0.0.2 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+BathRoomLamp.Proxy=lamp/bathRoomLamp:tcp -h 127.0.0.2 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+RGBLamp.Proxy=lamp/rgbLamp:tcp -h 127.0.0.2 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+
+Oven.Proxy=oven/oven:tcp -h 127.0.0.1 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+ModdedOven.Proxy=oven/moddedOven:tcp -h 127.0.0.1 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+ConvectionOven.Proxy=oven/convectionOven:tcp -h 127.0.0.1 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z

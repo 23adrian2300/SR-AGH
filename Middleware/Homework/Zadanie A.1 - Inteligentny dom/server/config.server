@@ -1,0 +1,5 @@
+LampAdapter.Endpoints=tcp -h 127.0.0.2 -p 10000 -z : udp -h 127.0.0.2 -p 10000 -z
+LampAdapter.ThreadPool.Size=10
+
+OvenAdapter.Endpoints=tcp -h 127.0.0.1 -p 10000 -z : udp -h 127.0.0.1 -p 10000 -z
+OvenAdapter.ThreadPool.Size=10
