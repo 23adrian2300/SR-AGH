@@ -1,0 +1,20 @@
+
+g	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8’¹ãö1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ŒèÆıÿÿÿÿ8’¹ãö1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¯¸ˆ¹8’¹ãö1
+h
+java:S2184#"FCast one of the operands of this multiplication operation to a "long".(À²£–ùÿÿÿÿ8¢¹ãö1
+g
+java:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ8¼¹ãö1
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(“…§Ú8¼¹ãö1
+G	java:S106"+Replace this use of System.out by a logger.(ú¼ºæ8¼¹ãö1
+X	java:S125"<This block of commented-out lines of code should be removed.(®èŸ¹8¿¬İö1
+V
+java:S4719 "9Replace charset name argument with StandardCharsets.UTF_8(ò”®ª8Ö¹ãö1
+{
+java:S2142$"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Ö¹ãö1
+F	java:S106'"+Replace this use of System.out by a logger.(°¢ş{8à¹ãö1
+]	java:S125)"<This block of commented-out lines of code should be removed.(™üºÁüÿÿÿÿ8ƒ•ªö1
+G	java:S106."+Replace this use of System.out by a logger.(©à¶Ì8à¹ãö1
+X	java:S1253"<This block of commented-out lines of code should be removed.(½ä”“8à¹ãö1

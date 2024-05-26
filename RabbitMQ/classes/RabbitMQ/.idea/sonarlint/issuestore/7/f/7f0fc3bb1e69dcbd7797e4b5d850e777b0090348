@@ -1,0 +1,11 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ŒèÆıÿÿÿÿ8Œ’Ëõ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÒøõÙ8’Ëõ1
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(“…§Ú8…Ëõ1
+g
+java:S2095"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ8…Ëõ1
+F	java:S106"+Replace this use of System.out by a logger.(»ÿ58”’Ëõ1
+]	java:S125"<This block of commented-out lines of code should be removed.(‘®Íûÿÿÿÿ8 ’Ëõ1
+L	java:S106&"+Replace this use of System.out by a logger.(¦ÌÅªüÿÿÿÿ8¥’Ëõ1
+X	java:S125)"<This block of commented-out lines of code should be removed.(½ä”“8†åËõ1
